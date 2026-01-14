@@ -62,6 +62,15 @@ console.log(result5)
 // 6️⃣ Crea un array con le lunghezze delle parole
 const parole = ["ciao", "carlo", "javascript"]
 
+function numeroParole(arr) {
+  const arrayLength = arr.map(a => a.length)
+  return arrayLength
+  
+}
+
+const result6 = numeroParole(parole)
+console.log(result6)
+
 // 7️⃣ Ordina un array di oggetti per età crescente
 const people = [
   { name: "Luca", age: 30 },
