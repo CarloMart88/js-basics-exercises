@@ -1,6 +1,12 @@
 // 1️⃣ Somma solo i numeri pari di un array
 const nums = [2, 7, 4, 9, 12]
 
+function isEven(array) {
+  const filtered = nums.filter(n => n % 2 === 0)
+  return filtered
+}
+
+
 // 2️⃣ Conta quante parole contiene una frase
 const frase = "JavaScript è un linguaggio potente"
 
