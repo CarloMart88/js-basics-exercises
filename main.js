@@ -6,6 +6,9 @@ function isEven(array) {
   return filtered
 }
 
+const result1 = isEven(nums)
+console.log(result1)
+
 
 // 2️⃣ Conta quante parole contiene una frase
 const frase = "JavaScript è un linguaggio potente"
