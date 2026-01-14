@@ -13,6 +13,15 @@ console.log(result1)
 // 2️⃣ Conta quante parole contiene una frase
 const frase = "JavaScript è un linguaggio potente"
 
+function contaParole(string) {
+  const parole = string.split(" ")
+  return parole.length
+  
+}
+
+const result2 = contaParole(frase)
+console.log(result2)
+
 // 3️⃣ Filtra gli oggetti con available: true
 const items = [
   { name: "A", available: true },
