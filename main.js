@@ -40,6 +40,13 @@ console.log(result3)
 // 4️⃣ Trova il valore massimo in un array di numeri
 const arr = [10, 3, 55, 2, 40]
 
+const maxNumber = Math.max(...arr)
+console.log(maxNumber)
+
+
+
+
+
 // 5️⃣ Capitalizza la prima lettera di ogni parola
 const title = "ciao mondo javascript"
 
