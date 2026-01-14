@@ -113,3 +113,6 @@ console.log(result9)
 
 // 🔟 Trasforma un array di numeri in stringhe con “€”
 const prezzi = [10, 20, 35]
+
+const replace = prezzi.map(p => p + "€")
+console.log(replace)
