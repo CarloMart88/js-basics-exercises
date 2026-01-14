@@ -98,5 +98,18 @@ console.log(result8)
 const parola = "programmazione"
 const lettera = "a"
 
+function contaLettere(string , lettera) {
+  const split = string.split("")
+  console.log(split)
+  const conta = split.filter(s => s === lettera)
+  return conta.length
+  
+}
+
+const result9 = contaLettere(parola , lettera)
+console.log(result9)
+
+
+
 // 🔟 Trasforma un array di numeri in stringhe con “€”
 const prezzi = [10, 20, 35]
