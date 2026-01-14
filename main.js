@@ -82,8 +82,17 @@ const people = [
 people.sort((a , b) => a.age - b.age)
 console.log(people)
 
+
+
 // 8️⃣ Rimuovi i duplicati da un array
 const nums2 = [1, 2, 2, 3, 4, 4, 5]
+
+const newNums = new Set(nums2)
+
+const result8 = [...newNums]
+
+console.log(result8)
+
 
 // 9️⃣ Conta quante volte compare una lettera
 const parola = "programmazione"
