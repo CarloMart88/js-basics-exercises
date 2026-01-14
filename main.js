@@ -72,11 +72,15 @@ const result6 = numeroParole(parole)
 console.log(result6)
 
 // 7️⃣ Ordina un array di oggetti per età crescente
+
 const people = [
   { name: "Luca", age: 30 },
   { name: "Anna", age: 22 },
   { name: "Marco", age: 40 }
 ]
+
+people.sort((a , b) => a.age - b.age)
+console.log(people)
 
 // 8️⃣ Rimuovi i duplicati da un array
 const nums2 = [1, 2, 2, 3, 4, 4, 5]
