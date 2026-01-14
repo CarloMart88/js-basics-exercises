@@ -44,11 +44,20 @@ const maxNumber = Math.max(...arr)
 console.log(maxNumber)
 
 
-
-
-
 // 5️⃣ Capitalizza la prima lettera di ogni parola
 const title = "ciao mondo javascript"
+
+function capitalize(string) {
+  const split = string.split(" ")
+  console.log(split)
+  const capitalize = split.map(s => s[0].toUpperCase() + s.slice(1))
+  return capitalize.join(" ")
+  
+}
+
+const result5 = capitalize(title)
+console.log(result5)
+
 
 // 6️⃣ Crea un array con le lunghezze delle parole
 const parole = ["ciao", "carlo", "javascript"]
