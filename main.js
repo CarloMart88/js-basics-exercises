@@ -29,6 +29,14 @@ const items = [
   { name: "C", available: true }
 ]
 
+function isTrue(array) {
+  const filter = array.filter(a => a.available === true )
+  return filter
+}
+
+const result3 = isTrue(items)
+console.log(result3)
+
 // 4️⃣ Trova il valore massimo in un array di numeri
 const arr = [10, 3, 55, 2, 40]
 
